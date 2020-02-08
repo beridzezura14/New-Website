@@ -9,6 +9,7 @@
 }
 
 body {
+  padding: 0;
 	margin: 0;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 400;
@@ -345,6 +346,7 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding-bottom: 30px;
 }
 .click{
   color: white;
@@ -385,6 +387,63 @@ nav a:hover {
 }
 .diagram-line-3:hover{
   width: 30%;
+}
+/*-------------    section 6   ----------------*/
+footer{
+   background: black;
+  bottom: 0;
+}
+.icon{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+.icon-row{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.fa-html5, .fa-css3-alt, .fa-js{
+  cursor: pointer;
+  padding: 0 20px;
+  font-size: 50px;
+  color: grey;
+}
+.fa-html5:hover{
+  color: white;
+  transition: 300ms ease
+}
+.fa-css3-alt:hover{
+  color: green;
+  transition: 300ms ease
+}
+.fa-js:hover{
+  color: yellow;
+  transition: 300ms ease
+}
+.icon-row-2{
+  padding-top: 40px;
+  padding-bottom: 35px;
+}
+.fa-facebook-square, .fa-youtube, .fa-instagram{
+  cursor: pointer;
+  color: grey;
+  padding: 0 10px;
+  font-size: 17px;
+}
+.fa-facebook-square:hover{
+  color: #083b66;
+}
+.fa-youtube:hover{
+  color: #e02424;
+}
+.fa-instagram:hover{
+  color: pink;
+}
+.create{
+  color: white;
+  padding-bottom: 20px;
+  text-align: center;
 }
 
 @media screen and (min-width: 750px) {
@@ -508,6 +567,22 @@ nav a:hover {
   /*------------------  5   ---------------*/
   .section-5{
     display: none;
+  }
+  /*----------------   6  ------------------*/
+  .icon{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.creator{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-left:20px;
+  padding-right: 20px;
+}
+ .create{
+    text-align: left;
   }
 
 }
