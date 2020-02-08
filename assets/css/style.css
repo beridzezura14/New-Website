@@ -107,6 +107,7 @@ nav ul {
 nav li {
   margin-bottom: 1em;
   margin-left: 1em;
+  height: 40px;
 }
 
 nav a {
