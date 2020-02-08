@@ -511,14 +511,7 @@ footer{
   }
 
   /*------------------------2-------------------*/
-  /*
-  .image{
-    display: block;
-    width: 100%
-  }
-  .images{
-    display: none;
-  }*/
+  
   .prev, .next {
   top: 55%;
 }
@@ -571,7 +564,7 @@ footer{
   /*----------------   6  ------------------*/
   .icon{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-direction: row;
 }
 .creator{
@@ -580,6 +573,9 @@ footer{
   flex-direction: row;
   padding-left:20px;
   padding-right: 20px;
+}
+.icon-row-2{
+  padding-right: 10px;
 }
  .create{
     text-align: left;
