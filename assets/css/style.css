@@ -6,6 +6,7 @@
 
 *, *::before, *::after {
   box-sizing: border-box;
+  text-decoration: none !important;
 }
 
 body {
@@ -13,7 +14,6 @@ body {
 	margin: 0;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 400;
-    text-decoration: none;
 }
 
 /* navigation styles start here */
@@ -23,8 +23,7 @@ body {
   .img{
     height: 190px;
     width: 318px;
-  }
- 
+  } 
 }
 
 /*-------------------Menu Br-------------------*/
@@ -108,7 +107,6 @@ nav ul {
 nav li {
   margin-bottom: 1em;
   margin-left: 1em;
-  height: 40px;
 }
 
 nav a {
@@ -446,6 +444,84 @@ footer{
   text-align: center;
 }
 
+
+/*------------------------------
+
+
+           article page 2
+
+
+--------------     section 1        ------------*/
+.all-article{
+  background: #c4e4ff;
+}
+
+.article{
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+.blog-image{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.blog-image-2{
+  display: none;
+}
+
+.js{
+  height: ;
+  width: 100%;
+  border: 10px solid white;
+}
+/*.desktop, .mobile{
+  border: 10px solid white;
+  width: 310px;
+  height: 200px;
+}*/
+.article-head{
+  text-align: center;
+}
+.blog{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;  
+  padding-bottom: 40px;  
+}
+.article-img{
+  width: 310px;
+  height: 200px;
+}
+.grey-line{
+  margin-left: 20px;
+  height: 200px;
+  width:  2px;
+  background: grey;
+}
+.blog-head{
+  text-align: center;
+  padding-left: 20px;
+  color: black;
+}
+
+.blog-description p{
+  text-align: justify;
+  color: black;
+  width: 300px;
+}
+.number{
+  display: flex;
+  justify-content: center;
+}
+.number div{
+  color: white;
+  padding: 10px 15px 10px 15px;
+  border-radius: 5px;
+  background: #083b66;
+  margin: 0px 5px 10px 5px;
+  cursor: pointer;
+}
 @media screen and (min-width: 750px) {
   .nav-toggle-label {
     display: none;
@@ -581,6 +657,22 @@ footer{
     text-align: left;
   }
 
+
+.blog{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;  
+  padding-bottom: 40px;  
+}
+.blog-head{
+  text-align: left;
+}
+.blog-description p{
+  padding-left: 20px;
+  width: 430px;
+}
+
 }
 @media screen and (min-width: 1124px) {
   .program{
@@ -590,6 +682,30 @@ footer{
   .description p{
   padding-left: 10%;
   }
+  .article{
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+.blog-image{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.blog-image-2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
 
+.js{
+  height: 400px;
+  width: 600px;
+  border: 10px solid white;
+}
+.desktop, .mobile{
+  border: 10px solid white;
+  width: 310px;
+  height: 200px;
+} 
 }
 
