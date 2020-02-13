@@ -454,7 +454,7 @@ footer{
   display: none;
 }
 
-.js{
+.jsjs{
   height: ;
   width: 100%;
 
@@ -767,6 +767,7 @@ footer{
   .js{
     height: 400px;
     width: 600px;
+    border:10px solid white;
   }
   .desktop, .mobile{
     border: 10px solid white;
