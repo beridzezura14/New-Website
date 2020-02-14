@@ -522,6 +522,9 @@ footer{
 
 
 /*----------------- blog 1  --------------------*/
+.back-color{
+  background: #f2f2f2;
+}
 .blog-back{
   display: flex;
   justify-content: center;
