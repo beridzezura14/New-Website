@@ -33,6 +33,7 @@ header {
 }
 .logo{
   color: white;
+  font-family: 'Odibee Sans', cursive;
 }
 
 .nav-toggle {
@@ -234,7 +235,7 @@ nav a:hover {
 }
 
 .image{
-  margin-top: 80px;
+  margin-top: 78px;
   opacity: ;
 }
 
