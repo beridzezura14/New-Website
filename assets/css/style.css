@@ -31,7 +31,8 @@ header {
   z-index: 999;
   width: 100%;
 }
-.logo{
+
+.logo a{
   color: white;
   font-family: 'Odibee Sans', cursive;
 }
@@ -560,7 +561,7 @@ footer{
   text-align: justify;
 }
 .add-more{
-  background: #91bfe6;
+   background-image: linear-gradient(#f2f2f2, #91bfe6);
   margin-top: 50px;
   padding-top: 50px;
   display: flex;
